@@ -1,0 +1,14 @@
+Differences between using sessions or JSON Web Tokens for authentication.
+//JWT without sessions is basically stateless, without sessions the information
+ //is stored client side and not in the backend.
+
+What does bcrypt do to help us store passwords in a secure manner.
+//it one way hashes passwords for us in a custom complexity of our choice.
+
+How are unit tests different from integration and end-to-end testing.
+//unit testing is basically testing singular components or bits of code,
+// while integration is either 2 or more componenets working together and end to end being the whole app itself.
+
+How Test Driven Development changes the way we write applications and tests.
+//it begins with writing tests for every section/functionality of code, and to only bring in new functionality when
+//a test fails. therefor driving the development based off of testing. (geez, this soudns fun..)
